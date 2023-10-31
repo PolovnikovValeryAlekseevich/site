@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+.polosa{
+    width: -100px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.container{
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.main_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_info p{
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+
+}
+.container_main{
+    background-color: #7fa6f1;
+    background-image: url(/style/img/main/backgraund.png);
+    background-repeat: no-repeat;
+
+}
+.descript{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #7fa6f1;
+}
+.descript p{
+    margin: 22px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: #7fa6f1;
+}
+
+h2{
+    text-align: center;
+}
+h5{
+    font-size: 23px;
+}
+.new{
+    border: 3px dashed #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.story{
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.new img{ 
+    /* фото обрезать в отношении 4:3 */
+    width: 30%;
+    height: 30%;
+}
+.carousel-item img{
+    width: 10%;
+    height: 10%;
+}
