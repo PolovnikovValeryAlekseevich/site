@@ -139,7 +139,7 @@ h5{
         
     }
     .descript{
-        display: block;
+        display: flex; justify-content: space-around;
     }
     .descript p{
         font-size: 15px;
@@ -193,7 +193,7 @@ h5{
     }
     .car_students{
         position: relative;
-        left: 125px;
+        left: 165px;
     }
     .gto_img img{
         width: 70%;
@@ -289,7 +289,7 @@ h5{
     }
     .car_students{
         position: relative;
-        left: 125px;
+        left: 90px;
     }
     .gto_img img{
         width: 70%;
