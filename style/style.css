@@ -60,7 +60,7 @@ nav{
 }
 .container_main{
     background-color: #7fa6f1;
-    background-image: url(../style/backgraund.png);
+    background-image: url("../style/backgraund.png");
     background-repeat: no-repeat;
 
 }
@@ -106,7 +106,11 @@ h5{
 .left img{
     margin-left: 15px;
 }
-
+#carouselExampleCaptions img{
+    border-radius:15px;
+    width: 500px!important;
+    border: 0.5px solid #7fa6f1;
+}
 .new img{ 
     /* фото обрезать в отношении 4:3 */
     width: 30%;
@@ -139,7 +143,8 @@ h5{
         
     }
     .descript{
-        display: block;
+        display: flex;
+        justify-content: space-around;
     }
     .descript p{
         font-size: 15px;
@@ -166,6 +171,7 @@ h5{
         width: 70%;
         position: relative;
         left: 90px;
+        
     }
     .about_text p{
         text-align: center;
@@ -193,7 +199,7 @@ h5{
     }
     .car_students{
         position: relative;
-        left: 125px;
+        left: 165px;
     }
     .gto_img img{
         width: 70%;
@@ -289,7 +295,7 @@ h5{
     }
     .car_students{
         position: relative;
-        left: 125px;
+        left: 90px;
     }
     .gto_img img{
         width: 70%;
@@ -300,13 +306,16 @@ h5{
     .video_gto{
         display: block;
         width: min-content;
-        position: relative;
-        left: 135px;
     }
     .dad_v{
         position: relative;
-        left: -45px;
+        left: 15px;
         margin-top: 10px;
+    }
+    .girl_v{
+        position: relative;
+        left:60px;
+
     }
     .scr_gro{
         font-size: 15px;
